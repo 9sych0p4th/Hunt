@@ -377,6 +377,3 @@ elif arguments.domain:
         except KeyboardInterrupt:
             print("Bye Bye")
 
-
-elif arguments.directory and arguments.domain:
-    print("error cannot be used two functions at once")
