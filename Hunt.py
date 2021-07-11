@@ -280,9 +280,6 @@ def bruteSubDomainUser(domain, wordlist, useragent):
 
 # ============================================================================
 
-#if arguments.help:
-#    help()
-#    exit()
 
 
 try:
@@ -365,7 +362,3 @@ elif arguments.all:
             bruteSubDomain(typeBrute, wordlist)
         except KeyboardInterrupt:
             print("Bye Bye")
-
-
-
-    
